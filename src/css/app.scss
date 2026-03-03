@@ -1,1 +1,50 @@
 // app global css in SCSS form
+/* src/css/app.scss */
+:root {
+  --nb-primary: #3B82A6;
+  --nb-secondary: #2E2E2E;
+  --nb-bg: #F2F2F2;
+  --nb-accent: #5FA9C9;
+  --nb-card: #ffffff;
+  --nb-border: rgba(46, 46, 46, 0.12);
+}
+
+.nb-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(59,130,166,0.10) 0%, rgba(242,242,242,1) 40%);
+}
+
+.nb-container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.nb-title {
+  font-family: 'Playfair Display', serif;
+  color: var(--nb-secondary);
+  letter-spacing: 0.2px;
+}
+
+.nb-card {
+  background: var(--nb-card);
+  border: 1px solid var(--nb-border);
+  border-radius: 14px;
+}
+
+.nb-muted {
+  color: rgba(46, 46, 46, 0.70);
+}
+
+.nb-pill {
+  border-radius: 999px !important;
+}
+
+.nb-btn {
+  border-radius: 12px !important;
+  font-weight: 600;
+}
+
+/* inputs más “premium” */
+.q-field--outlined .q-field__control {
+  border-radius: 12px !important;
+}

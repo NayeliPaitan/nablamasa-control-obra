@@ -23,3 +23,20 @@ $positive: #21ba45;
 $negative: #c10015;
 $info: #31ccec;
 $warning: #f2c037;
+
+//-------------
+/* src/css/quasar.variables.scss */
+
+/* NABLAMA Theme */
+$primary: #3B82A6;    // Azul construcción
+$secondary: #2E2E2E;  // Gris oscuro
+$accent: #5FA9C9;     // Azul claro hover
+
+$dark: #111827;       // para modo dark opcional
+$positive: #16a34a;
+$negative: #dc2626;
+$info: #2563eb;
+$warning: #f59e0b;
+
+$body-font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+$typography-font-family: $body-font-family;
