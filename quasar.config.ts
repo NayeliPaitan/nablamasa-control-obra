@@ -11,7 +11,7 @@ export default defineConfig((/* ctx */) => {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-vite/boot-files
-    boot: [],
+    boot: ['supabase'],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#css
     css: ['app.scss'],
@@ -49,8 +49,13 @@ export default defineConfig((/* ctx */) => {
       // vueOptionsAPI: false,
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
-
-      // publicPath: '/',
+      //En desarrollo:
+      //publicPath: '/',
+      publicPath: process.env.NODE_ENV === 'production'
+        ? '/nablamasa-control-obra/'
+        : '/',
+      //En producción (GitHub Pages):
+      //publicPath: '/nablamasa-control-obra/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
