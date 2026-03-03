@@ -32,11 +32,8 @@ const onLogin = async () => {
       </q-card-section>
 
       <q-card-section class="q-gutter-md">
-        <q-input v-model="email" type="email" label="Email" filled />
-        <q-input v-model="password" type="password" label="Contraseña" filled />
         <q-input v-model="email" outlined bg-color="white" label="Email" />
         <q-input v-model="password" outlined bg-color="white" label="Contraseña" type="password" class="q-mt-md" />
-        <q-btn label="Ingresar" color="primary" class="full-width q-mt-lg" />
       </q-card-section>
 
       <q-card-actions align="right">

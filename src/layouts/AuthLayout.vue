@@ -6,7 +6,7 @@
           <q-card class="nb-card q-pa-lg">
             <div class="row items-center q-col-gutter-md">
               <q-avatar size="52px" rounded>
-                <img src="/logo.png" alt="NABLAMA" />
+                <img src="/public/icons/logo.png" alt="NABLAMA" />
               </q-avatar>
 
               <div>
